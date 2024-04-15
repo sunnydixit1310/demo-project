@@ -1,0 +1,119 @@
+.navmenu {
+    display: flex;
+    padding: 12px 24px;
+    justify-content: space-between;
+    column-gap: 12px 24px;
+    border: 2px solid black;
+    background-color: aquamarine;
+    list-style: none;
+
+}
+
+.navbar {
+    display: flex;
+    list-style: none;
+    column-gap: 60px;
+}
+
+body {
+    background-color: black;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 50%;
+    color: brown;
+}
+
+.homepage {
+    display: flex;
+    min-height: 600px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.img {
+    display: flex;
+    flex-basis: 50%;
+    justify-content: center;
+}
+
+h1 {
+    color: aliceblue;
+}
+
+h3 {
+    color: aliceblue;
+}
+
+p {
+    color: aliceblue;
+}
+
+.copyright {
+    text-align: center;
+}
+
+span {
+    color: orange
+}
+
+.name {
+    color: black;
+}
+
+.container {
+    text-align: center;
+}
+
+.about {
+    width: 60%;
+    margin: 0% auto;
+}
+
+.skill-wrapper {
+    margin-top: 64px;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    list-style: none;
+}
+
+.skill {
+    background-color: white;
+    color: black;
+    padding: 16px 24px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.project {
+    display: flex;
+    margin: 0 auto;
+    gap: 12px;
+}
+
+.projectimage {
+    margin-left: 8px;
+    padding: 8PX;
+    display: block;
+    width: 300px;
+    height: auto;
+}
+
+.projectpara {
+    padding: 62px 90px;
+    padding-right: 22%;
+    margin: 150px 140px;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.projectname {
+    font-size: 32px;
+}
