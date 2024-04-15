@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h2{
+            text-align: center;
+        }
+        form{
+            background-color: aqua;
+            text-align: center;
+            border-color: black;
+            margin-left: 550px;
+            margin-right: 550px;
+        }
+        label{
+            color: blue;
+        }
+        input{
+            color: brown;
+        }
+        .navmenu{
+    display: flex;
+    padding: 12px 24px;
+    justify-content: space-between;
+    column-gap: 12px 24px;
+    border: 2px solid black;
+    background-color: aquamarine;
+    
+}
+.navbar{
+display: flex;
+list-style: none;
+column-gap: 60px;
+}
+body{
+ background-color: black;
+}
+h2{
+    color: aliceblue;
+}
+.copyright{
+ text-align: center;
+}
+span{
+    color:orange
+}
+    </style>
+</head>
+<body>
+   
+    <nav class="navmenu">
+        <h1>Sunny Dixit</h1>
+        <ul class="navbar">
+          
+    <li><a href="./home.html">Home</a></li>
+    <li><a href="./about me.html">About me</a></li>
+    <li><a href="./project.html">Project</a></li>
+    <li><a href="./contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <h2>Form</h2>
+
+<form action="/action_page.php"><br>
+  <label for="fname">Name:</label><br>
+  <input type="text" id="fname" name="fname" value=""><br><br>
+  <input type="reset" value="Reset">
+  <input type="submit" value="Submit"><br><br>
+  <input type="radio">
+  <label for="male">Male</label>
+  <input type="radio">
+  <label for="female">Female</label>
+  <input type="radio">
+  <label for="other">Other</label>
+  <br>
+  <label for="country">select your country</label>
+  <select name="country" id="country">
+    <option value="India">+91</option>
+    <option value="USA">+1</option>
+    <option value="Russia">+7</option>
+    <option value="China">+86</option>
+    <option value="UK">+44</option>
+    <option value="Israel">+972</option>
+  </select><br>
+  <label for="Mobile No.">Mobile no./Email id</label>
+<input type="text">
+<h2>Message</h2>
+  <textarea name="message" rows="20" cols="40">Type your message here</textarea>
+  <br><br>
+  <input type="submit">
+</form> 
+<div class="copyright">
+    <h4 style="color: aliceblue;">&copy;2024-portfolio-<span>sunny dixit</span></h4>
+</div>
+</body>
+</html>
